@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أسامة - الصفحة الشخصية</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #0f0f0f;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #00ffe1;
+    }
+    p {
+      font-size: 1.2em;
+      color: #aaa;
+    }
+    .links a {
+      margin: 10px;
+      text-decoration: none;
+      color: #00ffe1;
+      font-weight: bold;
+    }
+    .links {
+      margin-top: 20px;
+    }
+    section {
+      padding: 40px 20px;
+      background-color: #1c1c1c;
+      margin-top: 30px;
+    }
+    section h2 {
+      color: #00ffe1;
+    }
+    section p {
+      color: #ccc;
+      max-width: 700px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .about-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid #00ffe1;
+    }
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #555;
+    }
+    @media (min-width: 600px) {
+      .about-container {
+        flex-direction: row;
+        gap: 30px;
+        text-align: right;
+      }
+      .about-container p {
+        text-align: right;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>أنا أسامة</h1>
+    <p>مصمم ثلاثي أبعاد | منتج محتوى بصري | مطور واجهات</p>
+
+    <div class="links">
+      <a href="https://www.instagram.com/osama_studio3d" target="_blank">📸 إنستغرام</a>
+      <a href="mailto:osamaedit3d@gmail.com">✉️ البريد</a>
+      <a href="https://github.com/editwosama" target="_blank">💻 غيت هب</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>من أنا؟</h2>
+    <div class="about-container">
+      <img src="osama.jpg" alt="أسامة" class="about-img">
+      <p>
+        أنا أسامة، متخصص في التصميم الثلاثي الأبعاد وصناعة المحتوى المرئي. أعمل على مشاريع إبداعية تمزج بين الفن والتقنية، وأسعى دائمًا لتقديم تجربة بصرية فريدة من نوعها. أشارك أعمالي على إنستغرام تحت اسم <strong>@osama_studio3d</strong>.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 - جميع الحقوق محفوظة لأسامة
+  </footer>
+</body>
+</html>
